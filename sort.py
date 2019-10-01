@@ -49,6 +49,8 @@ def radix_sort(arr, max_value):
 
 arr = [ 170, 45, 75, 90, 802, 24, 2, 66] 
 arrnew=radix_sort(arr,802) 
-  
+
+#Use numpy for faster processing
+
 for i in range(len(arrnew)): 
     print(arr[i]), 
