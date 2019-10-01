@@ -39,6 +39,8 @@ def get_num_difit(n):
     i += 1
   return i
 
+#Radix sort time complexity is O(nk)
+
 def radix_sort(arr, max_value):
   num_digits = get_num_difit(max_value)
   # O(k(n+k))
