@@ -1,12 +1,12 @@
-def counting_sort(arr, max_value, get_index):
+def counting_sort(arr, max_value, get_index)
   counts = [0] * max_value
 
   # Counting - O(n)
-  for a in arr:
+  for a in arr
     counts[get_index(a)] += 1
   
   # Accumulating - O(k)
-  for i, c in enumerate(counts):
+  for i, c in enumerate(counts)
     if i == 0:
       continue
     else:
