@@ -51,4 +51,4 @@ arr = [ 170, 45, 75, 90, 802, 24, 2, 66]
 arrnew=radix_sort(arr,802) 
   
 for i in range(len(arrnew)): 
-    print(arr[i]), 
+    print(arrnew[i]), 
